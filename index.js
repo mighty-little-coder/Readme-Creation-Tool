@@ -62,7 +62,7 @@ inquirer
 
   .then((rmBuilder) => {
     // console.log("Successfully created index.html!");
-    const filename = `index.html`;
+    const filename = `README.md`;
     const readMe =
       `# ${rmBuilder.title}
 
