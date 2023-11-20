@@ -11,7 +11,7 @@ inquirer
     {
       type: 'input',
       name: 'description',
-      message: 'Provide a short description explaining the what, why, and how of your project. Motivation? Purpose? Lessons?'
+      message: 'Provide a short description explaining the what, why, and how of your project. Motivation? Purpose? Lessons?',
     },
     {
       type: 'input',
