@@ -25,8 +25,18 @@ inquirer
     },
     {
       type: 'input',
+      name: 'link',
+      message: 'Provide link to deployed project.',
+    },
+    {
+      type: 'input',
       name: 'usage',
       message: 'Provide instructions and examples for use.',
+    },
+    {
+      type: 'input',
+      name: 'alt',
+      message: 'Input alt text to be shown in cases of missing or broken image link',
     },
     {
       type: 'input',
@@ -66,44 +76,51 @@ inquirer
     const readMe =
       `# ${rmBuilder.title}
 
+
+
 ## Description
 
 ${rmBuilder.description}
+
 
 ## Table of Contents
 
 ${rmBuilder.table}
 
+
 ## Installation
 
 ${rmBuilder.install}
 
-## Usage
 
-    ![alt text](${rmBuilder.screenshot})
+## Usage
+To view the finished product, click this <a href="${rmBuilder.link}">link!</a>
+    ![${rmBuilder.alt}](${rmBuilder.screenshot})
+
 
 ## Credits
 
 ${rmBuilder.credits}
 
+
 ## License
 
 ${rmBuilder.license}
 
-    ---
 
 ## Features
 
 ${rmBuilder.features}
 
+
 ## How to Contribute
 
 ${rmBuilder.support}
 
+
 ## Tests
 
 ${rmBuilder.tests}`;
-
 
     fs.writeFile(filename, readMe, (err) =>
       err ? console.log(err) : console.log('Sucessfully created README')
