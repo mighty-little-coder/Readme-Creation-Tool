@@ -148,8 +148,8 @@ inquirer
   
   ## Questions
   
-  For further questions, please connect with me at ${rmBuilder.github},
-  or contact me via email at ${rmBuilder.email}.`;
+  For further questions, please connect with me at <a href="${rmBuilder.github}">${rmBuilder.github}</a>,<br>
+  or contact me via email at <a href="${rmBuilder.email}">${rmBuilder.email}</a>.`;
 
   // Renders license info
     function renderLicense(license) {
