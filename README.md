@@ -21,18 +21,19 @@
   
   ## Installation
   
-  N/A
+  Within your CLI (Command Line Interface) of choice (in this case, VS Code), ensure that Node.js is installed. Do this by running the command <npm -v>. This should display the verision of node installed on your local system.<br> If none is installed, and you have the latest version of JavaScript, run the command <npm -i> .<br>If issues persist, please visit Node.js.org and follow their technical write-ups for more information.
   
   
   ## Usage
   To view the finished product, click this <a href="https://mighty-little-coder.github.io/Readme-Creation-Tool/">link!</a>
   
-  ![Image / Video of completed project goes here.](./images/project-screenshot1.png)
+  In order to utilize this application, execute the command node [current file.file type] in your terminal, replacing [current file.file type] with the appropriate file name and type. For instance, the command may look like: node index.js. This will generate prompt for you to answer. Once your response is satisfactory, press enter to move onto the next prompt. After the final prompt, a console log will display indicating success or an error. If successful, a README file will be generated and can be located in the current directory. Right click on the README.md file and select "Open Preview" to view the document. Verify information is correct. Your README has been created for you project.
+  ![Screenshot / Video of deployed project](./images/project-screenshot1.png)
   
   
   ## Credits
   
-  UCONN Full Stack Flex Coding Program - Student: Samantha Ashley Rose - !(https://github.com/samanthashleyrose)
+  <li>UCONN Full Stack Flex Coding Program - Instructor: Mia Ciasullo</li><li>UCONN Full Stack Flex Coding Program - Instructor: Lee Warrick</li><li>UCONN Full Stack Flex Coding Program - Student: Samantha Ashley Rose - !(https://github.com/samanthashleyrose) </li>
   
   
   ## Features
@@ -57,5 +58,5 @@
   
   ## Questions
   
-  For further questions, please connect with me at <a href="mighty-little-coder">mighty-little-coder</a>,<br>
+  For further questions, please connect with me at <a href="https://github.com/mighty-little-coder">mighty-little-coder</a>,<br>
   or contact me via email at <a href="email@email.com">email@email.com</a>.

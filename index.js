@@ -85,7 +85,7 @@ inquirer
     },
   ])
 
-// Creates README structure using answers to above questions
+  // Creates README structure using answers to above questions
   .then((rmBuilder) => {
     const filename = `README.md`;
     const readMe =
@@ -118,6 +118,7 @@ inquirer
   ## Usage
   To view the finished product, click this <a href="${rmBuilder.link}">link!</a>
   
+  ${rmBuilder.usage}
   ![${rmBuilder.alt}](${rmBuilder.screenshot})
   
   
@@ -151,7 +152,7 @@ inquirer
   For further questions, please connect with me at <a href="https://github.com/${rmBuilder.github}">${rmBuilder.github}</a>,<br>
   or contact me via email at <a href="${rmBuilder.email}">${rmBuilder.email}</a>.`;
 
-  // Renders license info
+    // Renders license info
     function renderLicense(license) {
       if (rmBuilder.license === 'Apache License 2.0') {
         return `This project is licensed under the Apache License 2.0 - see the <a href="https://opensource.org/licenses/Apache-2.0">Apache License 2.0</a> file on OpenSourceInitiative.org for details.`;
