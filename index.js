@@ -148,7 +148,7 @@ inquirer
   
   ## Questions
   
-  For further questions, please connect with me at <a href="${rmBuilder.github}">${rmBuilder.github}</a>,<br>
+  For further questions, please connect with me at <a href="https://github.com/${rmBuilder.github}">${rmBuilder.github}</a>,<br>
   or contact me via email at <a href="${rmBuilder.email}">${rmBuilder.email}</a>.`;
 
   // Renders license info
