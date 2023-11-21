@@ -29,7 +29,7 @@
   
   In order to utilize this application, execute the command node [current file.file type] in your terminal, replacing [current file.file type] with the appropriate file name and type. For instance, the command may look like: node index.js.<br>This will generate prompt for you to answer. Once your response is satisfactory, press enter to move onto the next prompt.<br>After the final prompt, a console log will display indicating success or an error. If successful, a README file will be generated and can be located in the current directory. Right click on the README.md file and select "Open Preview" to view the document.<br>Verify information is correct.<br>Your README has been created for you project.
   
-  ![Screenshot / Video of deployed project](./README-Generator.mp4)
+  ![Screenshot / Video of deployed project](https://github.com/mighty-little-coder/Readme-Creation-Tool/assets/144641610/e2638860-03dc-40c9-aa58-93efb7f0f326)
 
   
   
