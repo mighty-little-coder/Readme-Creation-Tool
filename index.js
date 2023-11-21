@@ -95,7 +95,8 @@ ${rmBuilder.install}
 
 ## Usage
 To view the finished product, click this <a href="${rmBuilder.link}">link!</a>
-    ![${rmBuilder.alt}](${rmBuilder.screenshot})
+
+![${rmBuilder.alt}](${rmBuilder.screenshot})
 
 
 ## Credits

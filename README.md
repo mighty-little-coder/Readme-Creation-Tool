@@ -19,12 +19,12 @@ It is necessary to install the inquirer package to complete this project. To do 
 
 ## Usage
 
-To view the finished product, click this <a href="${rmBuilder.link}">link!</a>
+To view the finished product, click this <a href="https://mighty-little-coder.github.io/Readme-Creation-Tool/">link!</a>
 
 By running the "node index.js" command, only after having installed the inquirer package, you will be met with a series of questions that should walk you though the creation a professional README file for any of your projects. This application is designed to save you time will working on a project. To view operation of this application, view the project screenshot, or operational video linked below.
 
-    ![README generator screenshot](./images/project-screenshot1.png)
-    ![README generator demonstration video](./images/project-screenshot1.png)
+![README generator screenshot](./images/project-screenshot1.png)
+![README generator demonstration video](./images/project-screenshot1.png)
 
 
 ## Credits
