@@ -91,13 +91,15 @@ inquirer
     const readMe =
       `# ${rmBuilder.title}
   ${renderLicenseBadge(rmBuilder.license)}
-  
-  
+  </br>
+  </br>
+  </br>
   ## Description
   
   ${rmBuilder.description}
-  
-  
+  </br>
+  </br>
+  </br>
   ## Table of Contents
   
   - [Installation](#installation)
@@ -108,45 +110,53 @@ inquirer
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
-  
-  
+  </br>
+  </br>
+  </br>
   ## Installation
   
   ${rmBuilder.install}
-  
-  
+  </br>
+  </br>
+  </br>
   ## Usage
   To view the finished product, click this <a href="${rmBuilder.link}">link!</a>
   
   ${rmBuilder.usage}
   ![${rmBuilder.alt}](${rmBuilder.screenshot})
-  
-  
+  </br>
+  </br>
+  </br>
   ## Credits
   
   ${rmBuilder.credits}
-  
-  
+  </br>
+  </br>
+  </br>
   ## Features
   
   ${rmBuilder.features}
-  
-  
+  </br>
+  </br>
+  </br>
   ## How to Contribute
   
   ${rmBuilder.support}
-  
-  
+  </br>
+  </br>
+  </br>
   ## Tests
   
   ${rmBuilder.tests}
-  
-  
+  </br>
+  </br>
+  </br>
   ## License
   
   ${renderLicense(rmBuilder.license)}
-  
-  
+  </br>
+  </br>
+  </br>
   ## Questions
   
   For further questions, please connect with me at <a href="https://github.com/${rmBuilder.github}">${rmBuilder.github}</a>,<br>
