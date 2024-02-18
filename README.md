@@ -19,7 +19,7 @@
   - [License](#license)
   - [Questions](#questions)
   
-https://github.com/mighty-little-coder/Readme-Creation-Tool/assets/144641610/e2638860-03dc-40c9-aa58-93efb7f0f326
+<a href="https://github.com/mighty-little-coder/Readme-Creation-Tool/assets/144641610/e2638860-03dc-40c9-aa58-93efb7f0f326">Video Walkthrough</a>
 </br>
 </br> 
   ## Credits
